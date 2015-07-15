@@ -20,4 +20,5 @@ xcuserdata/
 .idea/
 *.exclude
 *.sln
-
+.ntvs_analysis.dat
+*.njsproj
