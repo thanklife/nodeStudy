@@ -1,0 +1,10 @@
+﻿{
+  "name": "nodejs-node-mysql",
+  "version": "0.0.0",
+  "description": "Mysql例子",
+  "main": "index.js",
+  "author": {
+    "name": "GuangyuFan",
+    "email": "thanlife@sohu.com"
+  }
+}

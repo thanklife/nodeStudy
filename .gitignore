@@ -22,3 +22,4 @@ xcuserdata/
 *.sln
 .ntvs_analysis.dat
 *.njsproj
+*~*.TMP
