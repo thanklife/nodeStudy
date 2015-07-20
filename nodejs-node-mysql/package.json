@@ -6,5 +6,9 @@
   "author": {
     "name": "GuangyuFan",
     "email": "thanlife@sohu.com"
+  },
+    "dependencies": {
+    "mysql": "*",
+    "async": "*"
   }
 }
