@@ -5,6 +5,20 @@ var dbClient;
 module.exports = function () {
     __constructor();
     
+    this.query = function (selectSQL, callback) {
+        pool.getConnection(function (err, conn) {
+            if (err) {
+                console.log(err);
+                callback(err, null);
+            }  
+            conn.query(selectSQL, function (err, rows) {
+                if (err)
+                    console.log(err);
+                callback(err, rows);
+            });
+        });
+    };
+    
     this.getProductListByCorpId = function (selectSQL, paiXu, corpId, callback) {
         pool.getConnection(function (err, conn) {
             if (err)
